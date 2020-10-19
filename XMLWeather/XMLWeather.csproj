@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,6 +89,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +102,65 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="01d.png" />
+    <EmbeddedResource Include="01n.png" />
+    <EmbeddedResource Include="02d.png" />
+    <EmbeddedResource Include="02n.png" />
+    <EmbeddedResource Include="03d.png" />
+    <EmbeddedResource Include="04d.png" />
+    <EmbeddedResource Include="09d.png" />
+    <EmbeddedResource Include="10d.png" />
+    <EmbeddedResource Include="10n.png" />
+    <EmbeddedResource Include="11d.png" />
+    <EmbeddedResource Include="13d.png" />
+    <EmbeddedResource Include="50d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09d1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
